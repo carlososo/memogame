@@ -1,0 +1,71 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+//General styles
+
+
+.__general_container{
+    display: flex;
+    background-color: darkgray;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    
+    //container styles
+    .__genaral_title_container{
+        text-align: center;
+        flex: 1 0 100%;
+    }
+    
+    .__scoreComponent_container{
+        display: flex;
+        justify-content: flex-end;
+        flex:1 0 100%;
+    }
+    .__board_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1 0 100%;
+        h2{
+            text-align: center;
+            margin-bottom: 5rem;
+        }
+        .__Game_area{
+            width: 100%;
+            max-width: 80%;
+            margin: 0 auto;
+            height: 100%;
+            flex: 1 0 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .__card{
+                margin-right: 10px;
+                margin-bottom: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 160px;
+                width: 15vw;
+                background-color: #00FFFF ;
+                font-size: 110px;
+                
+            }
+        }
+
+    }
+    
+}
+
+
+//Card Styles
+
+
+
